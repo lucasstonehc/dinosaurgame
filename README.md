@@ -228,8 +228,21 @@ Com a posição do dino setada. Nós iremos construi uma função para reiniciar
     pyautogui.click(Cordenates.replaybutton) 
 ```
 
+Criando a função de ***Jump***. Nossa função pressSpace tem a função de pressionar a tecla space para que nosso dino pule os obstáculos. Para criar a função digite o ***script*** abaixo.
 
+```
+def pressSpace():  
 
+    # pressionando a tecla space
+    pyautogui.keyDown('space') 
+  
+    # aguardando um tempo para liberar 
+    time.sleep(0.03)   
+  
+    # liberando a tecla space  
+    pyautogui.keyUp('space')
+
+```
 
 
 
