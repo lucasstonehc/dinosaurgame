@@ -297,10 +297,21 @@ Lembrando que para setar esses valores de x, y, x2 e y2 tu deve utilizar a funç
 
 Percebe que para achar o x2 e y2 tu deve fazer a posição de x2-x1 e então terá x2 final. O mesmo processo se repete para o y2.
 
+Se tu chegou até, Eu gostaria de PARABENIZAR tu novamente.
+Para finalizar nosso ***bot***, nós iremos criar nossa função principal. Para criar a função digite o ***script*** abaixo.
 
-
-
-
+```
+restartGame() 
+while True:  
+    if(gameOver() == 4180):
+        restartGame() 
+    if(imageGrab() != 2955):    
+        pressSpace()
+        time.sleep(0.1) 
+```
+Os valores de comparação da função ***gameOver*** e a  função ***imageGrab*** será captura por um rápido comando.
+No link abaixo tu encontra o arquivo completo.
+[Bot completo em python]()
 
 
 
