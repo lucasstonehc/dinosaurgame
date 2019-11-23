@@ -303,9 +303,9 @@ Para finalizar nosso ***bot***, nós iremos criar nossa função principal. Para
 ```
 restartGame() 
 while True:  
-    if(gameOver() == 4180):
+    if(gameOver() == 2915):
         restartGame() 
-    if(imageGrab() != 2955):    
+    if(imageGrab() != 3038):    
         pressSpace()
         time.sleep(0.1) 
 ```
@@ -321,31 +321,19 @@ while True:
     print(imageGrab())    
 ```
 
+![imageGrab valor](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/imageGrab.png)
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+O valor final retornado é quando o ***box*** apresenta valores em escala gray. 
+Para pegar o valor da função ***gameOver*** altere o ***Script*** principal para e rode o arquivo ***dinosaurbot.py.***
 ```
-Give an example
+restartGame() 
+while True:  
+    print(gameOver())    
 ```
+![gameOver valor](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/gameOver.png)
 
-### And coding style tests
+Com esse processo todo, nossa função principal está totalmente setada e nosso bot pronto para rodar. Agora basta tu executar o arquivo ***dinosaurbot.py.*** e ver a mágica acontecendo. 
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
