@@ -7,14 +7,17 @@ Here we talk about AI like weakness AI
 ## Iniciando
 O projeto visa construir uma inteligência artificial(IA) fraca, que possa realizar as atividades atribuidas a ela. Iremos nesse rápido e didático projeto criar um ***bot*** em ***Python*** para jogar o game do dinochome. 
 
-**Let´s do it!***
+**Let´s do it!**
 
 ### Pré-requesitos
 
+Uma boa prática de programação em ***Python*** quando se inicia um projeto, é criar para este projeto um ambiente virtual ou em Inglês ***virtual environments***. Quando se cria um ambiente virtual seu projeto logo estará isolado do sistema de diretórios, permitindo que as bibliotecas que tu instala nesse projeto, altere somente este projeto e não os demais projetos que estão presentes na máquina.
 
+Vamos instalar o ***virtual environments*** para nosso projeto. Para isso, abra seu terminal e vá até um diretório que tu queira iniciar o projeto.
+Exemplo:
 
 ```
-Give examples
+C:\Users\stone\Desktop>
 ```
 
 ### Installing
