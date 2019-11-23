@@ -252,6 +252,34 @@ Existe uma frase que fala que uma imagem fala mais que 1000 palavras, então obs
 
 ![Box](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/box.png)
 
+Para criar a função digite o ***script*** abaixo.
+
+```
+def imageGrab():  
+    # definindo a coordenada do box em frente ao dino 
+    box = (Cordenates.dinosaur[0]+30, Cordenates.dinosaur[1], 
+           Cordenates.dinosaur[0]+120, Cordenates.dinosaur[1]+30) 
+  
+    # pegando todos os pixel em forma RGB tupples    
+    image = ImageGrab.grab(box) 
+  
+    # convertendo RGB to Grayscale 
+    grayImage = ImageOps.grayscale(image) 
+  
+    # usando o numpy para somar todos os grayscale pixels  
+    a = np.array(grayImage.getcolors()) 
+  
+    # retornado a soma  
+    return a.sum() 
+```
+
+
+
+
+
+
+
+
 
 
 
