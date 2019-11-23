@@ -24,6 +24,8 @@ Para criar nosso projeto com sucesso devemos instalar essas bibliotecas.
 
 Uma boa prática de programação em ***Python*** quando se inicia um projeto, é criar para este projeto um ambiente virtual ou em Inglês ***virtual environments***. Quando se cria um ambiente virtual seu projeto logo estará isolado do sistema de diretórios, permitindo que as bibliotecas que tu instala nesse projeto, altere somente este projeto e não os demais projetos que estão presentes na máquina.
 
+Para encontrar mais detalhes sobre ambiente virtual, acesse: https://docs.python.org/3/library/venv.html
+
 Vamos instalar o ***virtual environments*** para nosso projeto. Para isso, abra seu terminal e vá até um diretório que tu queira iniciar o projeto.
 Exemplo:
 
