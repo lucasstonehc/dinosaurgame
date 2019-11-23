@@ -123,14 +123,28 @@ Instalando as bibliotecas ...
 
 A primeira biblioteca que iremos instalar é a PyAutoGUI. Essa biblioteca é utilizada para simular interações humana com o computar. interações como: movimento do mouse, click, pressionamento de teclas e entre outros eventos. Caso tu queira saber mais sobre a biblioteca tu pode acessar: https://pyautogui.readthedocs.io/en/latest/
 
-Digite o comando abaixo para instalar a biblioteca PyAutoGUI e lembre-se, sempre instale qualquer biblioteca som sua VENV ativa.
+Digite o comando abaixo para instalar a biblioteca PyAutoGUI e lembre-se, sempre instale qualquer biblioteca com sua VENV ativa.
 
 ```
 pip install PyAutoGUI
 ```
+A segunda biblioteca que iremos instalar é a Pillow e a versão dessa biblioteca que iremos utilizar é a 5.4. Esta biblioteca é utilizada para manipular diferentes formatos de imagens. Caso tu queira saber mais sobre a biblioteca tu pode acessar:https://pillow.readthedocs.io/en/stable/
 
-A segunda 
 
+Digite o comando abaixo para instalar a biblioteca Pillow e lembre-se, sempre instale qualquer biblioteca com sua VENV ativa.
+
+```
+pip install Pillow==5.4
+```
+
+A terceira biblioteca que iremos instalar é a numpy. A numpy permite que tu manipule matrizes, realize cálculos e operações  matemáticas avançadas.  Caso tu queira saber mais sobre a biblioteca tu pode acessar: https://numpy.org
+
+Digite o comando abaixo para instalar a biblioteca Numpy e lembre-se, sempre instale qualquer biblioteca com sua VENV ativa.
+
+
+```
+pip install numpy
+```
 
 
 ## Running the tests
