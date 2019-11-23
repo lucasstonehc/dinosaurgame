@@ -119,6 +119,17 @@ Pip é um sistema de gerenciamento de pacotes usado para instalar e gerenciar pa
 
 https://pt.wikipedia.org/wiki/Pip_(gerenciador_de_pacotes)
 
+Instalando as bibliotecas ...
+
+A primeira biblioteca que iremos instalar é a PyAutoGUI. Essa biblioteca é utilizada para simular interações humana com o computar. interações como: movimento do mouse, click, pressionamento de teclas e entre outros eventos. Caso tu queira saber mais sobre a biblioteca tu pode acessar: https://pyautogui.readthedocs.io/en/latest/
+
+Digite o comando abaixo para instalar a biblioteca PyAutoGUI e lembre-se, sempre instale qualquer biblioteca som sua VENV ativa.
+
+```
+pip install PyAutoGUI
+```
+
+A segunda 
 
 
 
