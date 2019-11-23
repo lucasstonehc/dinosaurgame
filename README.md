@@ -2,14 +2,16 @@
 ![Eu sou o dino](https://github.com/lucasstonehc/dinosaurgame/blob/master/dinoicon.jpg)
 
 One Paragraph of project description goes here
+Here we talk about AI like weakness AI
 
-## Getting Started
+## Iniciando
+O projeto visa construir uma inteligência artificial(IA) fraca, que possa realizar as atividades atribuidas a ela. Iremos nesse rápido e didático projeto criar um ***bot*** em ***Python*** para jogar o game do dinochome. 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+**Let´s do it!***
 
-### Prerequisites
+### Pré-requesitos
 
-What things you need to install the software and how to install them
+
 
 ```
 Give examples
