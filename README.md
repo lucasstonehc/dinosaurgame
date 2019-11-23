@@ -273,12 +273,29 @@ def imageGrab():
     return a.sum() 
 ```
 
+Para finalizar nossas funções, nós iremos fazer a função do ***gameOver***. Esta função segue a mesma lógica da função ***imageGrab***.
+Para criar a função digite o ***script*** abaixo.
 
+```
+def gameOver():
+    x = 648
+    y = 350
+    x2 = 70
+    y2 = 55    
 
+    box = (x, y, x+x2, y+y2)
 
+    image = ImageGrab.grab(box) 
+    grayImage = ImageOps.grayscale(image) 
+    a = np.array(grayImage.getcolors())
+    
+    return a.sum()
+```
+Lembrando que para setar esses valores de x, y, x2 e y2 tu deve utilizar a função ***displayMousePosition*** de ***PyAutoGUI***.
 
+![Restart](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/restart.png)
 
-
+Percebe que para achar o x2 e y2 tu deve fazer a posição de x2-x1 e então terá x2 final e o mesmo processo se repete para o y2.
 
 
 
