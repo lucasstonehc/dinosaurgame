@@ -11,13 +11,11 @@ O projeto visa construir uma inteligência artificial(IA) fraca, que possa reali
 
 ### Pré-requesitos
 
-Uma boa prática de programação em ***Python*** quando se inicia um projeto, é criar para este projeto um ambiente virtual ou em Inglês ***virtual environments***. Quando se cria um ambiente virtual seu projeto logo estará isolado do sistema de diretórios, permitindo que as bibliotecas que tu instala nesse projeto, altere somente este projeto e não os demais projetos que estão presentes na máquina.
-
-Vamos instalar o ***virtual environments*** para nosso projeto. Para isso, abra seu terminal e vá até um diretório que tu queira iniciar o projeto.
-Exemplo:
-
+Para criar nosso projeto com sucesso devemos instalar essas bibliotecas.
 ```
-C:\Users\stone\Desktop>
+    pip install PyAutoGUI
+    pip install Pillow==5.4 and python 3.7
+    pip install numpy
 ```
 
 ### Instalando
