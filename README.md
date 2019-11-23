@@ -192,13 +192,15 @@ import pyautogui
 ```
 Agora iremos executar a função para retornar para nós coodernadas do mouse na tela. Para isso digite o comando abaixo.
 ```
-x_dino, y_dino = pyautogui.displayMousePosition()
+pyautogui.displayMousePosition()
 ```
 ![Gif do mapeamento](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/pointmouse.gif)
 
 Quando a função é ativada o Gif demonstra como os valores de X e Y mudam de acordo com a movimentação do mouse na tela.
 
 Bom, entendido essa parte, vamos pegar a posição do dino no ambiente e para isso devemos pegar a parte do nariz dele.
+
+![Dino nariz](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/dinonose.png)
 
 
 
