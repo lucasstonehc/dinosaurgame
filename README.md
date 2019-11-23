@@ -45,9 +45,17 @@ Para vereficar quais arquivos foram criados, tu pode digitar o comando abaixo ta
 ```
 dir
 ```
-Caso tu tenha executado este comando, irá perceber que o sistema irá retornar algo semelhante a imagem abaixo.
-
-
+Caso tu tenha executado este comando, irá perceber que o sistema irá retornar algo semelhante a estrutura abaixo.
+```
+11/23/2019  01:23 PM    <DIR>          .
+11/23/2019  01:23 PM    <DIR>          ..
+11/21/2019  08:45 PM    <DIR>          Include
+11/21/2019  08:45 PM    <DIR>          Lib
+11/21/2019  08:45 PM               120 pyvenv.cfg
+11/21/2019  08:51 PM    <DIR>          Scripts
+               1 File(s)            120 bytes
+               5 Dir(s)  295,931,645,952 bytes free
+```
 
 ## Running the tests
 
