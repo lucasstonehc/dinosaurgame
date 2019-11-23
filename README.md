@@ -1,8 +1,9 @@
 # Dinosaur Bot
 ![Eu sou o dino](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/dinoicon.jpg)
 
-One Paragraph of project description goes here
-Here we talk about AI like weakness AI
+
+### Inteligência Artificial(IA) fraca.
+Este conceito entende que a construção de sistemas são de certa forma “inteligente”, entretanto, não são capazes de raciocinar por si próprios. Não tendo raciocínio nem vontades, pois a máquina se baseia em uma lógica fornecido por um humano.I
 
 ## Iniciando
 O projeto visa construir uma inteligência artificial(IA) fraca, que possa realizar as atividades atribuidas a ela. Iremos nesse rápido e didático projeto criar um ***bot*** em ***Python*** para jogar o game do dinochome. 
