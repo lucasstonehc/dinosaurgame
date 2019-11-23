@@ -157,10 +157,10 @@ Na terceira parte iremos de fato a começar a construir nosso ***bot***, pois to
 
 Let´s do it. 
 
-Abra seu ***browser*** e acesse o link: chrome://dino esse será nosso ambiente que iremos mapear para criar nosso ***bot***.
+Abra seu ***browser*** e acesse o link: ***chrome://dino*** esse será nosso ambiente que iremos mapear para criar nosso ***bot***.
+Após executar essa operação, vamos rodar o game até o dino morrer e após sua morte iremos mapear o ambiente.
 
-
-s
+![Ambiente](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/environments.png)
 
 
 
