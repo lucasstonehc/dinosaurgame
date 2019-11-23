@@ -24,7 +24,7 @@ Para criar nosso projeto com sucesso devemos instalar essas bibliotecas e o noss
 
 Uma boa prática de programação em ***Python*** quando se inicia um projeto, é criar para este projeto um ambiente virtual ou em Inglês ***virtual environments***. Quando se cria um ambiente virtual seu projeto logo estará isolado do sistema de diretórios, permitindo que as bibliotecas que tu instala nesse projeto, altere somente este projeto e não os demais projetos que estão presentes na máquina.
 
-Para encontrar mais detalhes sobre ambiente virtual, acesse: https://docs.python.org/3/library/venv.html
+Para encontrar mais detalhes sobre ambiente virtual, acesse: [Ambiente Virtual](https://docs.python.org/3/library/venv.html) 
 
 Vamos instalar o ***virtual environments*** para nosso projeto. Para isso, abra seu terminal e vá até um diretório que tu queira iniciar o projeto.
 Exemplo:
@@ -118,18 +118,18 @@ pip --version
 Uma breve descrição sobre o que PIP. 
 Pip é um sistema de gerenciamento de pacotes usado para instalar e gerenciar pacotes de software escritos na linguagem de programação Python. Muitos pacotes podem ser encontrados no Python Package Index (PyPI). 
 
-https://pt.wikipedia.org/wiki/Pip_(gerenciador_de_pacotes)
+Fonte: [Descrição PIP](https://pt.wikipedia.org/wiki/Pip_(gerenciador_de_pacotes))
 
 Instalando as bibliotecas ...
 
-A primeira biblioteca que iremos instalar é a **PyAutoGUI**. Essa biblioteca é utilizada para simular interações humana com o computar. interações como: movimento do mouse, click, pressionamento de teclas e entre outros eventos. Caso tu queira saber mais sobre a biblioteca tu pode acessar: https://pyautogui.readthedocs.io/en/latest/
+A primeira biblioteca que iremos instalar é a **PyAutoGUI**. Essa biblioteca é utilizada para simular interações humana com o computar. interações como: movimento do mouse, click, pressionamento de teclas e entre outros eventos. Caso tu queira saber mais sobre a biblioteca tu pode acessar: [PyAutoGUI](https://pyautogui.readthedocs.io/en/latest)
 
 Digite o comando abaixo para instalar a biblioteca **PyAutoGUI** e lembre-se, sempre instale qualquer biblioteca com sua VENV ativa.
 
 ```
 pip install PyAutoGUI
 ```
-A segunda biblioteca que iremos instalar é a **Pillow** e a versão dessa biblioteca que iremos utilizar é a 5.4. Esta biblioteca é utilizada para manipular diferentes formatos de imagens. Caso tu queira saber mais sobre a biblioteca tu pode acessar:https://pillow.readthedocs.io/en/stable/
+A segunda biblioteca que iremos instalar é a **Pillow** e a versão dessa biblioteca que iremos utilizar é a 5.4. Esta biblioteca é utilizada para manipular diferentes formatos de imagens. Caso tu queira saber mais sobre a biblioteca tu pode acessar: [Pillow](https://pillow.readthedocs.io/en/stable)
 
 
 Digite o comando abaixo para instalar a biblioteca **Pillow** e lembre-se, sempre instale qualquer biblioteca com sua VENV ativa.
@@ -138,7 +138,7 @@ Digite o comando abaixo para instalar a biblioteca **Pillow** e lembre-se, sempr
 pip install Pillow==5.4
 ```
 
-A terceira biblioteca que iremos instalar é a **Numpy**. A **Numpy** permite que tu manipule matrizes, realize cálculos e operações  matemáticas avançadas.  Caso tu queira saber mais sobre a biblioteca tu pode acessar: https://numpy.org
+A terceira biblioteca que iremos instalar é a **Numpy**. A **Numpy** permite que tu manipule matrizes, realize cálculos e operações  matemáticas avançadas.  Caso tu queira saber mais sobre a biblioteca tu pode acessar: [Numpy](https://numpy.org)
 
 Digite o comando abaixo para instalar a biblioteca **Numpy** e lembre-se, sempre instale qualquer biblioteca com sua VENV ativa.
 
@@ -149,6 +149,15 @@ pip install numpy
 
 Okay. Se tu compreendeu tudo até aqui, meus PARABÉNS! You´re ROCK!
 
+Agora iremos iniciar a parte 3.
+
+**Parte 3.**
+
+Na terceira parte iremos de fato a começar a construir nosso ***bot***, pois todo nosso projeto já esta configurado e pronto.
+
+Let´s do it. 
+
+Abra seu ***browser*** e acesse o link: [Dino](chrome://dino) esse será nosso ambiente que iremos mapear para criar nosso ***bot***.
 
 
 
