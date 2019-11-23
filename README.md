@@ -99,7 +99,7 @@ Este (dinosaurgame) sinaliza para nós que a VENV está ativa e para finalizar t
 cd ..
 ```
 
-Okay. Se tu compreendeu tudo até aqui, meus PARABÉNS, You´re ROCK!
+Okay. Se tu compreendeu tudo até aqui, meus PARABÉNS! You´re ROCK!
 
 
 
