@@ -20,7 +20,7 @@ Exemplo:
 C:\Users\stone\Desktop>
 ```
 
-### Installing
+### Instalando
 
 Uma boa prática de programação em ***Python*** quando se inicia um projeto, é criar para este projeto um ambiente virtual ou em Inglês ***virtual environments***. Quando se cria um ambiente virtual seu projeto logo estará isolado do sistema de diretórios, permitindo que as bibliotecas que tu instala nesse projeto, altere somente este projeto e não os demais projetos que estão presentes na máquina.
 
@@ -56,6 +56,55 @@ Caso tu tenha executado este comando, irá perceber que o sistema irá retornar 
                1 File(s)            120 bytes
                5 Dir(s)  295,931,645,952 bytes free
 ```
+
+O próximo passo agora é ativar nossa VENV e para isso tu deve navegar até o diretório ***Scripts***. Digite o comando abaixo para realizar esta operação.
+```
+cd Scripts
+```
+Após executar o comando tu deve listar os arquivos que estão dentro deste diretório. Digite o comando abaixo.
+```
+dir
+```
+Caso tu tenha executado este comando, irá perceber que o sistema irá retornar algo semelhante a estrutura abaixo.
+```
+11/21/2019  08:51 PM    <DIR>          .
+11/21/2019  08:51 PM    <DIR>          ..
+11/21/2019  08:45 PM             2,307 activate
+11/21/2019  08:45 PM             1,041 activate.bat
+11/21/2019  08:45 PM             1,511 Activate.ps1
+11/21/2019  08:45 PM               368 deactivate.bat
+11/21/2019  08:45 PM            93,065 easy_install-3.7.exe
+11/21/2019  08:45 PM            93,065 easy_install.exe
+11/21/2019  08:51 PM            93,048 f2py.exe
+11/21/2019  08:50 PM            93,052 pip.exe
+11/21/2019  08:50 PM            93,052 pip3.7.exe
+11/21/2019  08:50 PM            93,052 pip3.exe
+11/21/2019  08:45 PM           415,248 python.exe
+11/21/2019  08:45 PM           414,736 pythonw.exe
+              12 File(s)      1,393,545 bytes
+               2 Dir(s)  295,927,517,184 bytes free
+```
+Aqui temos dois arquivos que iremos utilizar. eles são: ***activate*** e ***deactivate***. O ***activate*** irá iniciar nossa VENV, enquanto o ***deactivate*** irá desativar nossa VENV, bem simples!
+
+Para ativar nossa VENV digite o comando abaixo.
+```
+activate
+```
+Caso tudo tenha corrido certo, irá perceber que o sistema irá retornar algo semelhante a estrutura abaixo.
+```
+(dinosaurgame) C:\Users\stone\Desktop\dinosaurgame\Scripts>
+```
+Este (dinosaurgame) sinaliza para nós que a VENV está ativa e para finalizar tudo deve voltar para o diretório dinosaurgame. Para isso digite o comando abaixo.
+```
+cd ..
+```
+
+Okay. Se tu compreendeu tudo até aqui, meus PARABÉNS, You´re ROCK!
+
+
+
+
+
 
 ## Running the tests
 
