@@ -311,7 +311,15 @@ while True:
 ```
 Os valores de comparação da função ***gameOver*** e a  função ***imageGrab*** será captura por um rápido comando.
 No link abaixo tu encontra o arquivo completo.
-[Bot completo em python]()
+[Bot completo em python](https://github.com/lucasstonehc/dinosaurgame/blob/master/dinosaurbot.py)
+
+Para setar os valores vamos, rodar o bot mas iremos colocar alguns prints nas funções.
+Para pegar o valor da função ***imageGrab*** altere o ***Script*** principal para e rode o arquivo ***dinosaurbot.py.***
+```
+restartGame() 
+while True:  
+    print(imageGrab())    
+```
 
 
 
