@@ -22,21 +22,32 @@ C:\Users\stone\Desktop>
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Uma boa prática de programação em ***Python*** quando se inicia um projeto, é criar para este projeto um ambiente virtual ou em Inglês ***virtual environments***. Quando se cria um ambiente virtual seu projeto logo estará isolado do sistema de diretórios, permitindo que as bibliotecas que tu instala nesse projeto, altere somente este projeto e não os demais projetos que estão presentes na máquina.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+Vamos instalar o ***virtual environments*** para nosso projeto. Para isso, abra seu terminal e vá até um diretório que tu queira iniciar o projeto.
+Exemplo:
 
 ```
-until finished
+C:\Users\stone\Desktop>
 ```
+Após entrar no diretório desejado, tu deve criar seu ***virtual environments***. Digite o comando abaixo seu VENV(***virtual environments***).
 
-End with an example of getting some data out of the system or using it for a little demo
+```
+python -m venv dinosaurgame 
+```
+Obs: dinosaurgame é o nome do projeto ou nome da pasta ou o que tu quiser chamar, o importante aqui é saber que este será nosso projeto e tu pode atribuir o nome que quiser para este projeto, neste caso escolhemos dinosaurgame.
+
+Caso ocorra tudo certo, tu poderá ver que o projeto foi criado entrando dentro dele. Para isso digite o comando abaixo.
+```
+cd dinosaurgame
+```
+Para vereficar quais arquivos foram criados, tu pode digitar o comando abaixo também.
+```
+dir
+```
+Caso tu tenha executado este comando, irá perceber que o sistema irá retornar algo semelhante a imagem abaixo.
+
+
 
 ## Running the tests
 
