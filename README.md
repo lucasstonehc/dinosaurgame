@@ -160,7 +160,7 @@ Let´s do it.
 Abra seu ***browser*** e acesse o link: [Dino](chrome://dino) esse será nosso ambiente que iremos mapear para criar nosso ***bot***.
 
 
-
+s
 
 
 
