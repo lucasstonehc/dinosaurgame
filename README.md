@@ -202,6 +202,38 @@ Bom, entendido essa parte, vamos pegar a posição do dino no ambiente e para is
 
 ![Dino nariz](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/dinonose.png)
 
+Okay, guarde essa informação, pois mais tarde iremos precisar dela.
+
+Vamos criar nossa classe Cordenates. para isso eu aconselho utilizar um IDEA como o Visual Studio Code, mas sinta-se livre para escolher qualquer um.
+
+Abra seu editor de preferência e crie o arquivo bot.py.
+
+Digite o comando abaixo para criar a classe.
+```
+class Cordenates(): 
+  
+    # coordenatas para encontar o button de restart o game.
+    screnn_x,screen_y =  pyautogui.size()
+    replaybutton =(screnn_x/2, screen_y/2) 
+    #
+    dinosaur = (110, 350) 
+```
+Pronto acabamos de criar nossa classe Cordenates. Tu lembra das coordenadas da nariz do dino ? então iremos utilizar ela na variável dinosaur. Na classe Cordenates tu encontra a variável com seus valores X e Y setados em 110 e 350 respectivamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Running the tests
