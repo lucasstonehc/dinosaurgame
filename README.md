@@ -22,6 +22,8 @@ C:\Users\stone\Desktop>
 
 ### Instalando
 
+**Parte 1.**
+
 Uma boa prática de programação em ***Python*** quando se inicia um projeto, é criar para este projeto um ambiente virtual ou em Inglês ***virtual environments***. Quando se cria um ambiente virtual seu projeto logo estará isolado do sistema de diretórios, permitindo que as bibliotecas que tu instala nesse projeto, altere somente este projeto e não os demais projetos que estão presentes na máquina.
 
 Vamos instalar o ***virtual environments*** para nosso projeto. Para isso, abra seu terminal e vá até um diretório que tu queira iniciar o projeto.
@@ -101,7 +103,21 @@ cd ..
 
 Okay. Se tu compreendeu tudo até aqui, meus PARABÉNS! You´re ROCK!
 
+Agora iremos iniciar a parte 2.
+**Parte 2.**
 
+Nessa segunda parte iremos instalar as bibliotecas para nosso projeto, mas antes de iniciar a instalação das bibliotecas vamos atualizar nosso PIP. Digite o comando abaixo para atualizar o PIP.
+```
+python -m pip install --upgrade pip
+```
+Tu pode checar a versão do PIP utilizando o comando abaixo.
+```
+pip --version
+```
+Uma breve descrição sobre o que PIP. 
+Pip é um sistema de gerenciamento de pacotes usado para instalar e gerenciar pacotes de software escritos na linguagem de programação Python. Muitos pacotes podem ser encontrados no Python Package Index (PyPI). 
+
+https://pt.wikipedia.org/wiki/Pip_(gerenciador_de_pacotes)
 
 
 
