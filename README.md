@@ -104,6 +104,7 @@ cd ..
 Okay. Se tu compreendeu tudo até aqui, meus PARABÉNS! You´re ROCK!
 
 Agora iremos iniciar a parte 2.
+
 **Parte 2.**
 
 Nessa segunda parte iremos instalar as bibliotecas para nosso projeto, mas antes de iniciar a instalação das bibliotecas vamos atualizar nosso PIP. Digite o comando abaixo para atualizar o PIP.
