@@ -278,10 +278,10 @@ Para criar a função digite o ***script*** abaixo.
 
 ```
 def gameOver():
-    x = 648
-    y = 350
-    x2 = 70
-    y2 = 55    
+    x = 487
+    y = 291
+    x2 = 48   
+    y2 = 44    
 
     box = (x, y, x+x2, y+y2)
 
@@ -295,7 +295,7 @@ Lembrando que para setar esses valores de x, y, x2 e y2 tu deve utilizar a funç
 
 ![Restart](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/restart.png)
 
-Percebe que para achar o x2 e y2 tu deve fazer a posição de x2-x1 e então terá x2 final e o mesmo processo se repete para o y2.
+Percebe que para achar o x2 e y2 tu deve fazer a posição de x2-x1 e então terá x2 final. O mesmo processo se repete para o y2.
 
 
 
