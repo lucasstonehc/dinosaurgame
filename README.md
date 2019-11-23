@@ -208,23 +208,25 @@ Vamos criar nossa classe ***Cordenates***. para isso eu aconselho utilizar um ID
 
 Abra seu editor de preferência e crie o arquivo bot.py.
 
-Digite o comando abaixo para criar a classe.
+Digite o ***script*** abaixo para criar a classe.
 ```
 class Cordenates(): 
   
     # coordenatas para encontar o button de restart o game.
-    screnn_x,screen_y =  pyautogui.size()
-    replaybutton =(screnn_x/2, screen_y/2) 
-    #
+    screen_x,screen_y =  pyautogui.size()
+    replaybutton = (screen_x/2, screen_y/2) 
     dinosaur = (110, 350) 
 ```
 Pronto acabamos de criar nossa classe ***Cordenates***. Tu lembra das coordenadas do nariz do dino ? então iremos utilizar ela na variável dinosaur. Na classe Cordenates tu encontra a variável com seus valores X e Y setados em 110 e 350 respectivamente.
 
+Com a posição do dino setada. Nós iremos construi uma função para reiniciar o ***game***. Para criar essa fução iremos utilizar as variável ***replaybutton***, pois essa variável já esta setada com as coordenadas para reiniciar o game. Para criar a função digite o ***script*** abaixo.
 
-
-
-
-
+```
+ def restartGame(): 
+  
+    # Usando pyautogui para criar uma insteração sem nenhum usuário humano.   
+    pyautogui.click(Cordenates.replaybutton) 
+```
 
 
 
