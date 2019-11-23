@@ -162,7 +162,7 @@ Após executar essa operação, vamos rodar o game até o dino morrer e após su
 
 ![Ambiente](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/environments.png)
 
-**Mapeando e descobrindo a posição do Dino na tela.**
+**Mapeando - Descobrindo a posição do Dino na tela e outros elementos.**
 Para descobrir a posição do Dino na tela iremos utilizar a biblioteca ***PyAutoGUI***. A biblioteca possui uma função que chama:
 ```
 pyautogui.displayMousePosition()
@@ -195,6 +195,10 @@ Agora iremos executar a função para retornar para nós coodernadas do mouse na
 x_dino, y_dino = pyautogui.displayMousePosition()
 ```
 ![Gif do mapeamento](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/pointmouse.gif)
+
+Quando a função é ativada o Gif demonstra como os valores de X e Y mudam de acordo com a movimentação do mouse na tela.
+
+Bom, entendido essa parte, vamos pegar a posição do dino no ambiente e para isso devemos pegar a parte do nariz dele.
 
 
 
