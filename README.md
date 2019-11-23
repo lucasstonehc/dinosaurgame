@@ -244,6 +244,14 @@ def pressSpace():
 
 ```
 
+Após realizar todo esse processo, acredito eu que iremos criar uma das funções mais importante do nosso ***bot***. A função ***ImageGrab***. Essa função irá gerar vários screens shoots da tela para nós, e o melhor é que iremos escolher as coordenadas de captura.
+
+A ideia é o seguinte: Vamos capturar um ***box*** pouco a frente do dino e quando houver uma variação de cor na tela iremos fazer com que o dino tome uma ação.
+
+Existe uma frase que fala que uma imagem fala mais que 1000 palavras, então observe a imagem abaixo. O retângulo vermelho é onde nossa função irá atuar.
+
+![Box](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/box.png)
+
 
 
 
