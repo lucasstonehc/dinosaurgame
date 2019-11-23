@@ -305,7 +305,7 @@ restartGame()
 while True:  
     if(gameOver() == 2915):
         restartGame() 
-    if(imageGrab() != 3038):    
+    if(imageGrab() != 2955):    
         pressSpace()
         time.sleep(0.1) 
 ```
