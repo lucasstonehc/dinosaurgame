@@ -1,5 +1,5 @@
 # Dinosaur Bot
-![Eu sou o dino](https://github.com/lucasstonehc/dinosaurgame/blob/master/dinoicon.jpg)
+![Eu sou o dino](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/dinoicon.jpg)
 
 One Paragraph of project description goes here
 Here we talk about AI like weakness AI
