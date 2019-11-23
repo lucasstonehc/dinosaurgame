@@ -162,13 +162,39 @@ Após executar essa operação, vamos rodar o game até o dino morrer e após su
 
 ![Ambiente](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/environments.png)
 
+**Mapeando e descobrindo a posição do Dino na tela.**
+Para descobrir a posição do Dino na tela iremos utilizar a biblioteca ***PyAutoGUI***. A biblioteca possui uma função que chama:
+```
+pyautogui.displayMousePosition()
+```
+Vamos construir um mini-script para mapear nosso ambiente. Let´s do it.
 
+Vá até seu terminal e digite o comando abaixo.
+```
+python
+```
+A estrutura irá parecer como está abaixo.
+```
+(dinosaurgame) C:\Users\stone\Desktop\dinosaurgame>python
+```
+Após executar o comando o sistema irá executar o ***Python*** e estaremos pronto para rodar nosso mini-script.
+```
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+```
+O símbolo >>> demonstar que o Python está pronto para receber nossos comandos.
 
+Vamos importar a biblioteca ***PyAutoGUI***. Digite o comando abaixo e execute.
 
-
-
-
-
+```
+import pyautogui 
+```
+Agora iremos executar a função para retornar para nós coodernadas do mouse na tela. Para isso digite o comando abaixo.
+```
+x_dino, y_dino = pyautogui.displayMousePosition()
+```
+![Gif do mapeamento](https://github.com/lucasstonehc/dinosaurgame/blob/master/images/pointmouse.gif)
 
 
 
